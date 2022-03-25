@@ -1,12 +1,15 @@
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle.min.js' | asset_url | script_tag }}
 
 <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
+    {%- for block in section.blocks -%}
+      <div class="swiper-slide">Slide 1</div>
+    {%- endfor %}
+
   </div>
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
@@ -74,10 +77,6 @@
     ]
   }
 {% endschema %}
-
-{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'swiper-bundle.min.js' | asset_url  }}" defer="defer"></script>
-
 
 {% stylesheet %}
 {% endstylesheet %}
