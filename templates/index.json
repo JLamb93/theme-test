@@ -207,6 +207,37 @@
     },
     "16481819351a14cc0b": {
       "type": "swiper-slider",
+      "blocks": {
+        "7ed9fe15-903b-4558-8a5a-9a7cc804f053": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flushbig-450x661.png",
+            "heading": "Image slide",
+            "heading_size": "h1"
+          }
+        },
+        "fb665762-3774-4033-88a7-ef003d8457cd": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flushbig-450x661.png",
+            "heading": "Image slide",
+            "heading_size": "h1"
+          }
+        },
+        "40742fc2-25a0-46d7-8b22-4124570a53ce": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flushbig-450x661.png",
+            "heading": "Image slide",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "7ed9fe15-903b-4558-8a5a-9a7cc804f053",
+        "fb665762-3774-4033-88a7-ef003d8457cd",
+        "40742fc2-25a0-46d7-8b22-4124570a53ce"
+      ],
       "settings": {
       }
     }
