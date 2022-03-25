@@ -2873,3 +2873,6 @@ details-disclosure > details {
 .header__heading{
   background: lightgray;
 }
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
