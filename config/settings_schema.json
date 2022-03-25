@@ -1145,7 +1145,7 @@
     ]
   },
   {  
-    "name": "t:settings_schema.banner_position",
+    "name": "Banner Position",
     "settings": [
       {
         "type": "select",
