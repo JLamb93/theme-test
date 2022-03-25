@@ -1,5 +1,7 @@
 /* Color custom properties */
-
+:root {
+  --swiper-navigation-size: 24px;
+}
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -2872,4 +2874,11 @@ details-disclosure > details {
 
 .header__heading{
   background: lightgray;
+}
+
+#swiperSlider{
+  max-height:100vh;
+}
+div.swiper-button-next, div.swiper-button-prev{
+  display: flex;
 }
